@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="349.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.HomePage">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="338.0" prefWidth="619.0" style="-fx-background-color: ffc8dd;">
+         <children>
+            <Label alignment="CENTER" layoutX="107.0" layoutY="14.0" prefHeight="82.0" prefWidth="418.0" text="ITEM CONTROLL">
+               <font>
+                  <Font name="Javanese Text" size="49.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="114.0" layoutX="202.0" layoutY="172.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="214.0" />
+            <Button layoutX="275.0" layoutY="236.0" mnemonicParsing="false" onAction="#viewItemFormOnAction" style="-fx-background-radius: 5;" text="View Item" textFill="#0900ff" />
+            <Button layoutX="277.0" layoutY="192.0" mnemonicParsing="false" onAction="#addItemFormOnAction" style="-fx-background-radius: 5;" text="Add Item" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
